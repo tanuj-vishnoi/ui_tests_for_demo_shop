@@ -1,14 +1,20 @@
-# Project Directory
+# This project contains both cucumber(bdd) and testng (tdd) tests
 
-## src/test/java
+## For running feature file use command : mvn clean test -Pbdd
+
+## For running testng classes or xml : mvn cleab test -Ptdd
+
+## Use JDK 1.8 or above and maven 3.3.3
+
+# Project Directory  
+
+
+## src/main/java
 
 #### browser factory
 
 it create instance of the browser as mentioned in the config file
 
-#### junit runner
-
-this is the entry point . Its a junit runner to execute all the feature file present in the target feature folder
 
 ### Keywords
 
@@ -17,6 +23,12 @@ Its tha page object model presentation of the web page. Contains all the actions
 ### Page Objects:
 
 conatins the locator as per the page object model
+
+#### junit runner
+
+this is the entry point . Its a junit runner to execute all the feature file present in the target feature folder
+
+## src/test/java
 
 ### Stepdefs
 
@@ -32,6 +44,10 @@ contains all the feature files
 
 contains yaml file for readind test data from file
 
+### testng xml file
+
+tetsng xml file for testng tests
+
 ## config property
 
 browser= define browser chrome or firefox
@@ -46,6 +62,10 @@ Through IDE : Go to junitrunner package-> run RunCucumberTest using junit
 
 or command line us run command in cmd/terminal : mvn clean test
 
+for Testng - select testng file and run as testng
+
 ## Where to see resutls
 
 target/cucumber/cucumber-html-reports/overview-features.html
+
+target/surefire/emailable-report
