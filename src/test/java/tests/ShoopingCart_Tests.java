@@ -7,6 +7,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import logger.MainLogger;
+
 public class ShoopingCart_Tests extends BaseTests {
 
 	@BeforeClass
@@ -21,7 +23,7 @@ public class ShoopingCart_Tests extends BaseTests {
 	}
 
 	@Test(description = "Test data and product details on shopping cart page")
-	public void Test1_User_Can_Search_A_Valid_Product() {
+	public void Test1_Verify_Profuct_Details_On_Shopping_Cart_Part() {
 		String productToSearch = testdata.getProductForSearch();
 		headerKeywords.searchProduct(productToSearch);
 		softly.assertThat(searchKeywords.getCountOfProductsAfterSearch()).isGreaterThan(0);
@@ -31,6 +33,7 @@ public class ShoopingCart_Tests extends BaseTests {
 
 		softly.assertThat(searchKeywords.getSuccessText()).contains(productTitle)
 				.withFailMessage("product name is incorrect in success message");
+		MainLogger.logger().info(headerKeywords.getTotalPriceDisplayInCart());
 		softly.assertThat(productPrice).isEqualTo(headerKeywords.getTotalPriceDisplayInCart())
 				.withFailMessage("The product price in cart is incorrect");
 		softly.assertThat(headerKeywords.getNumberOfItemsInCart()).isEqualTo("1")

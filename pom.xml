@@ -16,7 +16,7 @@
 		<selenium.version>3.141.59</selenium.version>
 		<webdrivermanager.version>3.8.1</webdrivermanager.version>
 		<testngversion>6.14.3</testngversion>
-		<assertjversion>3.9.1</assertjversion>
+		<assertjversion>3.6.0</assertjversion>
 		<testngxml>smoke_tests.xml</testngxml>
 	</properties>
 
@@ -32,7 +32,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>${testngversion}</version>
-			<scope>test</scope>
 		</dependency>
 
 
@@ -181,7 +180,6 @@
 							<parallel>methods</parallel>
 							<threadCount>1</threadCount>
 							<testFailureIgnore>false</testFailureIgnore>
-							<skipTests>true</skipTests>
 						</configuration>
 					</plugin>
 

@@ -1,5 +1,8 @@
 package keywords;
 
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import logger.MainLogger;
 import pageobjects.HeaderSectionLocators;
 
@@ -66,6 +69,7 @@ public class HeaderSectionKeywords extends BasePage {
 	}
 	
 	public String getNumberOfItemsInCart() {
+		wait.until(ExpectedConditions.visibilityOfElementLocated(headerLocators.cartButton));
 		String numberOfItems = getElement(headerLocators.cartButton).getText().trim().split(" ")[0];
 		MainLogger.logger().info("Number of Items in Cart "+numberOfItems);
 		return numberOfItems;
@@ -74,7 +78,7 @@ public class HeaderSectionKeywords extends BasePage {
 	public String getTotalPriceDisplayInCart() {
 		String[] tokens = getElement(headerLocators.cartButton).getText().trim().split(" ");
 		String totalPrice = tokens[tokens.length-1];
-		MainLogger.logger().info("Number of Items in Cart "+totalPrice);
+		MainLogger.logger().info("Price in Cart "+totalPrice);
 		return totalPrice;
 	}
 	
