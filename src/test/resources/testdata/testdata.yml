@@ -1,0 +1,7 @@
+app_url: http://demoshop24.com
+app_login_path: "/index.php?route=account/login"
+users:
+  user1: DontDeleteTestAutomation@mailinator.com
+  password1: T@stAutomation
+products:
+  product1: mac
