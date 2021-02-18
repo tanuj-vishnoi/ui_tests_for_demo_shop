@@ -2,7 +2,9 @@
 
 ## For running feature file use command : mvn clean test -Pbdd
 
-## For running testng classes or xml : mvn cleab test -Ptdd
+## For running testng classes or xml : mvn clean test -Ptdd
+
+## you can clone, import and can run tests through your choice of IDE as well 
 
 ## Use JDK 1.8 or above and maven 3.3.3
 
