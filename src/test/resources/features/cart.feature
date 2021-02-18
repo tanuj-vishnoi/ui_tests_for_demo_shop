@@ -1,8 +1,7 @@
 @regression 
 Feature: Shopping Cart 
 
-Scenario:
-Verify User can see product description title price on shopping cart page 
+Scenario: Verify User can see product description title price on shopping cart page 
 	Given User launches the application url 
 	When user enters a valid product search term 
 	And clicks on search button 

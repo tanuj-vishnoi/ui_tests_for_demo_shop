@@ -1,130 +1,51 @@
-{2021-02-18 17:39:44,343}       {INFO} (BaseTests.java:49) 
-{2021-02-18 17:39:44,355}       {INFO} (BaseTests.java:50) ****************** Starting method : Test1_Verify_Login_Page_Accessible_From_Landing*************************
-{2021-02-18 17:39:44,356}       {INFO} (BaseTests.java:51) 
-{2021-02-18 17:39:44,543}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 17:39:51,296}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [title='My Account'] span[class='caret']
-{2021-02-18 17:39:51,428}       {INFO} (HeaderSectionKeywords.java:53) User clicks on the myaccount option present in header section
-{2021-02-18 17:39:51,429}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [title='My Account']+ul a[href*='login']
-{2021-02-18 17:39:53,288}       {INFO} (HeaderSectionKeywords.java:59) User clicks on the login option present in header myaccount dropdown
-{2021-02-18 17:39:53,803}       {INFO} (UserLoginPageKeywords.java:50) All options are [Login, Register, Forgotten Password, My Account, Address Book, Wish List, Order History, Downloads, Recurring payments, Reward Points, Returns, Transactions, Newsletter]
-{2021-02-18 17:39:57,380}       {INFO} (BaseTests.java:64) 
-{2021-02-18 17:39:57,381}       {INFO} (BaseTests.java:65) **************** Ending method : Test1_Verify_Login_Page_Accessible_From_Landing ******************************8
-{2021-02-18 17:39:57,382}       {INFO} (BaseTests.java:66) 
-{2021-02-18 17:39:57,384}       {INFO} (BaseTests.java:49) 
-{2021-02-18 17:39:57,387}       {INFO} (BaseTests.java:50) ****************** Starting method : Test2_Verify_A_Valid_User_Having_Account_Can_Login_Using_Valid_UserName_And_Password*************************
-{2021-02-18 17:39:57,387}       {INFO} (BaseTests.java:51) 
-{2021-02-18 17:39:57,400}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com/index.php?route=account/login
-{2021-02-18 17:40:00,945}       {DEBUG} (BasePage.java:33) Locator value is By.id: input-email
-{2021-02-18 17:40:01,529}       {INFO} (UserLoginPageKeywords.java:29) Entered the username : DontDeleteTestAutomation@mailinator.com
-{2021-02-18 17:40:01,529}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #input-password
-{2021-02-18 17:40:01,956}       {INFO} (UserLoginPageKeywords.java:35) Entered the password : T@stAutomation
-{2021-02-18 17:40:01,957}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[value='Login']
-{2021-02-18 17:40:03,245}       {INFO} (UserLoginPageKeywords.java:41) Clicked on the login button
-{2021-02-18 17:40:03,763}       {INFO} (MyAccountPageKeywords.java:30) All options are [Edit your account information, Change your password, Modify your address book entries, Modify your wish list, View your order history, Downloads, Your Reward Points, View your return requests, Your Transactions, Recurring payments, Register for an affiliate account, Subscribe / unsubscribe to newsletter]
-{2021-02-18 17:40:04,897}       {INFO} (BaseTests.java:64) 
-{2021-02-18 17:40:04,897}       {INFO} (BaseTests.java:65) **************** Ending method : Test2_Verify_A_Valid_User_Having_Account_Can_Login_Using_Valid_UserName_And_Password ******************************8
-{2021-02-18 17:40:04,898}       {INFO} (BaseTests.java:66) 
-{2021-02-18 17:40:08,569}       {INFO} (BaseTests.java:49) 
-{2021-02-18 17:40:08,569}       {INFO} (BaseTests.java:50) ****************** Starting method : Test1_User_Can_Search_A_Valid_Product*************************
-{2021-02-18 17:40:08,569}       {INFO} (BaseTests.java:51) 
-{2021-02-18 17:40:08,572}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 17:40:15,392}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']
-{2021-02-18 17:40:15,726}       {INFO} (HeaderSectionKeywords.java:43) User enters search term mac
-{2021-02-18 17:40:15,726}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']+span button i
-{2021-02-18 17:40:17,902}       {INFO} (HeaderSectionKeywords.java:48) User clicks on search button
-{2021-02-18 17:40:17,956}       {INFO} (SearchPageKeywords.java:30) Total count of product after search 4
-{2021-02-18 17:40:18,316}       {INFO} (BaseTests.java:64) 
-{2021-02-18 17:40:18,319}       {INFO} (BaseTests.java:65) **************** Ending method : Test1_User_Can_Search_A_Valid_Product ******************************8
-{2021-02-18 17:40:18,320}       {INFO} (BaseTests.java:66) 
-{2021-02-18 17:40:18,321}       {INFO} (BaseTests.java:49) 
-{2021-02-18 17:40:18,322}       {INFO} (BaseTests.java:50) ****************** Starting method : Test2_Verify_Search_Results_Has_The_Searched_Keyword_In_Their_Name*************************
-{2021-02-18 17:40:18,324}       {INFO} (BaseTests.java:51) 
-{2021-02-18 17:40:18,327}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 17:40:22,355}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']
-{2021-02-18 17:40:22,972}       {INFO} (HeaderSectionKeywords.java:43) User enters search term mac
-{2021-02-18 17:40:22,973}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']+span button i
-{2021-02-18 17:40:24,045}       {INFO} (HeaderSectionKeywords.java:48) User clicks on search button
-{2021-02-18 17:40:25,293}       {INFO} (BaseTests.java:64) 
-{2021-02-18 17:40:25,293}       {INFO} (BaseTests.java:65) **************** Ending method : Test2_Verify_Search_Results_Has_The_Searched_Keyword_In_Their_Name ******************************8
-{2021-02-18 17:40:25,295}       {INFO} (BaseTests.java:66) 
-{2021-02-18 17:40:28,513}       {INFO} (BaseTests.java:49) 
-{2021-02-18 17:40:28,514}       {INFO} (BaseTests.java:50) ****************** Starting method : Test1_User_Can_Search_A_Valid_Product*************************
-{2021-02-18 17:40:28,514}       {INFO} (BaseTests.java:51) 
-{2021-02-18 17:40:28,517}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 17:40:35,843}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']
-{2021-02-18 17:40:36,251}       {INFO} (HeaderSectionKeywords.java:43) User enters search term mac
-{2021-02-18 17:40:36,252}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']+span button i
-{2021-02-18 17:40:38,112}       {INFO} (HeaderSectionKeywords.java:48) User clicks on search button
-{2021-02-18 17:40:38,157}       {INFO} (SearchPageKeywords.java:30) Total count of product after search 4
-{2021-02-18 17:40:38,631}       {INFO} (SearchPageKeywords.java:40) $122.00 Ex Tax: $100.00
-{2021-02-18 17:40:38,632}       {INFO} (SearchPageKeywords.java:43) Product at index 0 having a price of $122.00 and tax $100.00
-{2021-02-18 17:40:38,726}       {INFO} (SearchPageKeywords.java:49) Product at index 0 has name iMac
-{2021-02-18 17:40:38,883}       {INFO} (SearchPageKeywords.java:64) User add product at index 0 in the cart
-{2021-02-18 17:40:39,179}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [class*='alert-success']
-{2021-02-18 17:40:39,223}       {INFO} (SearchPageKeywords.java:70) Success message is Success: You have added iMac to your shopping cart! ×
-{2021-02-18 17:40:39,656}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #cart-total
-{2021-02-18 17:40:39,737}       {INFO} (HeaderSectionKeywords.java:77) Number of Items in Cart $122.00
-{2021-02-18 17:40:39,738}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #cart-total
-{2021-02-18 17:40:39,774}       {INFO} (HeaderSectionKeywords.java:70) Number of Items in Cart 1
-{2021-02-18 17:40:39,774}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #cart-total
-{2021-02-18 17:40:39,837}       {INFO} (HeaderSectionKeywords.java:64) User clicks on the cart icon
-{2021-02-18 17:40:39,837}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [id="cart"] a[href*='cart']
-{2021-02-18 17:40:40,925}       {DEBUG} (ShoppingCartPageKeywords.java:35) [Image, Product Name, Model, Quantity, Unit Price, Total]
-{2021-02-18 17:40:40,926}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [class="table-responsive"] table
-{2021-02-18 17:40:41,002}       {DEBUG} (ShoppingCartPageKeywords.java:37) Numbers of rows are 1
-{2021-02-18 17:40:41,050}       {DEBUG} (ShoppingCartPageKeywords.java:41) Numbers of cells are 1
-{2021-02-18 17:40:41,315}       {INFO} (ShoppingCartPageKeywords.java:47) Table data is [{Product Name=iMac, Total=$122.00, Model=Product 14, Quantity=, Image=, Unit Price=$122.00}]
-{2021-02-18 17:40:41,318}       {INFO} (BaseTests.java:64) 
-{2021-02-18 17:40:41,318}       {INFO} (BaseTests.java:65) **************** Ending method : Test1_User_Can_Search_A_Valid_Product ******************************8
-{2021-02-18 17:40:41,319}       {INFO} (BaseTests.java:66) 
-{2021-02-18 17:40:46,049}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 17:40:54,414}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']
-{2021-02-18 17:40:54,862}       {INFO} (HeaderSectionKeywords.java:43) User enters search term mac
-{2021-02-18 17:40:54,863}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']+span button i
-{2021-02-18 17:40:56,975}       {INFO} (HeaderSectionKeywords.java:48) User clicks on search button
-{2021-02-18 17:40:57,025}       {INFO} (SearchPageKeywords.java:30) Total count of product after search 4
-{2021-02-18 17:40:57,029}       {INFO} (Stepdefinations.java:60) Assertion passed : more than one product dispaly after search
-{2021-02-18 17:40:57,237}       {INFO} (SearchPageKeywords.java:64) User add product at index 0 in the cart
-{2021-02-18 17:40:57,523}       {INFO} (SearchPageKeywords.java:40) $122.00 Ex Tax: $100.00
-{2021-02-18 17:40:57,524}       {INFO} (SearchPageKeywords.java:43) Product at index 0 having a price of $122.00 and tax $100.00
-{2021-02-18 17:40:57,758}       {INFO} (SearchPageKeywords.java:49) Product at index 0 has name iMac
-{2021-02-18 17:40:57,886}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [class*='alert-success']
-{2021-02-18 17:40:57,976}       {INFO} (SearchPageKeywords.java:70) Success message is Success: You have added iMac to your shopping cart! ×
-{2021-02-18 17:40:58,327}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #cart-total
-{2021-02-18 17:40:58,411}       {INFO} (HeaderSectionKeywords.java:77) Number of Items in Cart $122.00
-{2021-02-18 17:40:58,413}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #cart-total
-{2021-02-18 17:40:58,502}       {INFO} (HeaderSectionKeywords.java:70) Number of Items in Cart 1
-{2021-02-18 17:40:58,503}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #cart-total
-{2021-02-18 17:40:58,658}       {INFO} (HeaderSectionKeywords.java:64) User clicks on the cart icon
-{2021-02-18 17:40:58,658}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [id="cart"] a[href*='cart']
-{2021-02-18 17:40:59,734}       {DEBUG} (ShoppingCartPageKeywords.java:35) [Image, Product Name, Model, Quantity, Unit Price, Total]
-{2021-02-18 17:40:59,734}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [class="table-responsive"] table
-{2021-02-18 17:40:59,823}       {DEBUG} (ShoppingCartPageKeywords.java:37) Numbers of rows are 1
-{2021-02-18 17:40:59,876}       {DEBUG} (ShoppingCartPageKeywords.java:41) Numbers of cells are 1
-{2021-02-18 17:41:00,197}       {INFO} (ShoppingCartPageKeywords.java:47) Table data is [{Product Name=iMac, Total=$122.00, Model=Product 14, Quantity=, Image=, Unit Price=$122.00}]
-{2021-02-18 17:41:00,637}       {DEBUG} (ShoppingCartPageKeywords.java:35) [Image, Product Name, Model, Quantity, Unit Price, Total]
-{2021-02-18 17:41:00,637}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [class="table-responsive"] table
-{2021-02-18 17:41:00,677}       {DEBUG} (ShoppingCartPageKeywords.java:37) Numbers of rows are 1
-{2021-02-18 17:41:00,696}       {DEBUG} (ShoppingCartPageKeywords.java:41) Numbers of cells are 1
-{2021-02-18 17:41:00,826}       {INFO} (ShoppingCartPageKeywords.java:47) Table data is [{Product Name=iMac, Total=$122.00, Model=Product 14, Quantity=, Image=, Unit Price=$122.00}]
-{2021-02-18 17:41:04,778}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 17:41:12,896}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [title='My Account'] span[class='caret']
-{2021-02-18 17:41:13,092}       {INFO} (HeaderSectionKeywords.java:53) User clicks on the myaccount option present in header section
-{2021-02-18 17:41:13,092}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [title='My Account']+ul a[href*='login']
-{2021-02-18 17:41:15,078}       {INFO} (HeaderSectionKeywords.java:59) User clicks on the login option present in header myaccount dropdown
-{2021-02-18 17:41:15,580}       {INFO} (UserLoginPageKeywords.java:50) All options are [Login, Register, Forgotten Password, My Account, Address Book, Wish List, Order History, Downloads, Recurring payments, Reward Points, Returns, Transactions, Newsletter]
-{2021-02-18 17:41:20,131}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com/index.php?route=account/login
-{2021-02-18 17:41:26,878}       {DEBUG} (BasePage.java:33) Locator value is By.id: input-email
-{2021-02-18 17:41:27,462}       {INFO} (UserLoginPageKeywords.java:29) Entered the username : DontDeleteTestAutomation@mailinator.com
-{2021-02-18 17:41:27,464}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #input-password
-{2021-02-18 17:41:27,964}       {INFO} (UserLoginPageKeywords.java:35) Entered the password : T@stAutomation
-{2021-02-18 17:41:27,965}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[value='Login']
-{2021-02-18 17:41:30,750}       {INFO} (UserLoginPageKeywords.java:41) Clicked on the login button
-{2021-02-18 17:41:31,215}       {INFO} (MyAccountPageKeywords.java:30) All options are [Edit your account information, Change your password, Modify your address book entries, Modify your wish list, View your order history, Downloads, Your Reward Points, View your return requests, Your Transactions, Recurring payments, Register for an affiliate account, Subscribe / unsubscribe to newsletter]
-{2021-02-18 17:41:35,817}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 17:41:43,621}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']
-{2021-02-18 17:41:43,921}       {INFO} (HeaderSectionKeywords.java:43) User enters search term mac
-{2021-02-18 17:41:43,922}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']+span button i
-{2021-02-18 17:41:46,189}       {INFO} (HeaderSectionKeywords.java:48) User clicks on search button
-{2021-02-18 17:41:46,249}       {INFO} (SearchPageKeywords.java:30) Total count of product after search 4
-{2021-02-18 17:41:46,250}       {INFO} (Stepdefinations.java:60) Assertion passed : more than one product dispaly after search
+{2021-02-18 18:28:43,525}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
+{2021-02-18 18:28:46,070}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']
+{2021-02-18 18:28:46,214}       {INFO} (HeaderSectionKeywords.java:43) User enters search term mac
+{2021-02-18 18:28:46,215}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']+span button i
+{2021-02-18 18:28:47,396}       {INFO} (HeaderSectionKeywords.java:48) User clicks on search button
+{2021-02-18 18:28:47,419}       {INFO} (SearchPageKeywords.java:30) Total count of product after search 4
+{2021-02-18 18:28:47,423}       {INFO} (Stepdefinations.java:60) Assertion passed : more than one product dispaly after search
+{2021-02-18 18:28:47,482}       {INFO} (SearchPageKeywords.java:64) User add product at index 0 in the cart
+{2021-02-18 18:28:47,524}       {INFO} (SearchPageKeywords.java:40) $122.00 Ex Tax: $100.00
+{2021-02-18 18:28:47,525}       {INFO} (SearchPageKeywords.java:43) Product at index 0 having a price of $122.00 and tax $100.00
+{2021-02-18 18:28:47,554}       {INFO} (SearchPageKeywords.java:49) Product at index 0 has name iMac
+{2021-02-18 18:28:47,801}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [class*='alert-success']
+{2021-02-18 18:28:47,816}       {INFO} (SearchPageKeywords.java:70) Success message is Success: You have added iMac to your shopping cart! Ã—
+{2021-02-18 18:28:48,561}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #cart-total
+{2021-02-18 18:28:48,590}       {INFO} (HeaderSectionKeywords.java:77) Number of Items in Cart $122.00
+{2021-02-18 18:28:48,591}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #cart-total
+{2021-02-18 18:28:48,608}       {INFO} (HeaderSectionKeywords.java:70) Number of Items in Cart 1
+{2021-02-18 18:28:48,609}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #cart-total
+{2021-02-18 18:28:48,632}       {INFO} (HeaderSectionKeywords.java:64) User clicks on the cart icon
+{2021-02-18 18:28:48,633}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [id="cart"] a[href*='cart']
+{2021-02-18 18:28:49,126}       {DEBUG} (ShoppingCartPageKeywords.java:35) [Image, Product Name, Model, Quantity, Unit Price, Total]
+{2021-02-18 18:28:49,126}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [class="table-responsive"] table
+{2021-02-18 18:28:49,147}       {DEBUG} (ShoppingCartPageKeywords.java:37) Numbers of rows are 1
+{2021-02-18 18:28:49,157}       {DEBUG} (ShoppingCartPageKeywords.java:41) Numbers of cells are 1
+{2021-02-18 18:28:49,223}       {INFO} (ShoppingCartPageKeywords.java:47) Table data is [{Product Name=iMac, Total=$122.00, Model=Product 14, Quantity=, Image=, Unit Price=$122.00}]
+{2021-02-18 18:28:49,566}       {DEBUG} (ShoppingCartPageKeywords.java:35) [Image, Product Name, Model, Quantity, Unit Price, Total]
+{2021-02-18 18:28:49,566}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [class="table-responsive"] table
+{2021-02-18 18:28:49,585}       {DEBUG} (ShoppingCartPageKeywords.java:37) Numbers of rows are 1
+{2021-02-18 18:28:49,595}       {DEBUG} (ShoppingCartPageKeywords.java:41) Numbers of cells are 1
+{2021-02-18 18:28:49,660}       {INFO} (ShoppingCartPageKeywords.java:47) Table data is [{Product Name=iMac, Total=$122.00, Model=Product 14, Quantity=, Image=, Unit Price=$122.00}]
+{2021-02-18 18:28:51,306}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
+{2021-02-18 18:28:53,749}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [title='My Account'] span[class='caret']
+{2021-02-18 18:28:53,815}       {INFO} (HeaderSectionKeywords.java:53) User clicks on the myaccount option present in header section
+{2021-02-18 18:28:53,815}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [title='My Account']+ul a[href*='login']
+{2021-02-18 18:28:54,687}       {INFO} (HeaderSectionKeywords.java:59) User clicks on the login option present in header myaccount dropdown
+{2021-02-18 18:28:54,839}       {INFO} (UserLoginPageKeywords.java:50) All options are [Login, Register, Forgotten Password, My Account, Address Book, Wish List, Order History, Downloads, Recurring payments, Reward Points, Returns, Transactions, Newsletter]
+{2021-02-18 18:28:56,681}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com/index.php?route=account/login
+{2021-02-18 18:28:58,996}       {DEBUG} (BasePage.java:33) Locator value is By.id: input-email
+{2021-02-18 18:28:59,175}       {INFO} (UserLoginPageKeywords.java:29) Entered the username : DontDeleteTestAutomation@mailinator.com
+{2021-02-18 18:28:59,176}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #input-password
+{2021-02-18 18:28:59,285}       {INFO} (UserLoginPageKeywords.java:35) Entered the password : T@stAutomation
+{2021-02-18 18:28:59,285}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[value='Login']
+{2021-02-18 18:29:00,645}       {INFO} (UserLoginPageKeywords.java:41) Clicked on the login button
+{2021-02-18 18:29:00,788}       {INFO} (MyAccountPageKeywords.java:30) All options are [Edit your account information, Change your password, Modify your address book entries, Modify your wish list, View your order history, Downloads, Your Reward Points, View your return requests, Your Transactions, Recurring payments, Register for an affiliate account, Subscribe / unsubscribe to newsletter]
+{2021-02-18 18:29:02,504}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
+{2021-02-18 18:29:04,932}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']
+{2021-02-18 18:29:05,067}       {INFO} (HeaderSectionKeywords.java:43) User enters search term mac
+{2021-02-18 18:29:05,068}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']+span button i
+{2021-02-18 18:29:06,053}       {INFO} (HeaderSectionKeywords.java:48) User clicks on search button
+{2021-02-18 18:29:06,071}       {INFO} (SearchPageKeywords.java:30) Total count of product after search 4
+{2021-02-18 18:29:06,071}       {INFO} (Stepdefinations.java:60) Assertion passed : more than one product dispaly after search
