@@ -1,10 +1,26 @@
 package tests;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import mobserverproxy.StartMobServer;
 
 public class Login_Tests extends BaseTests {
 
+	@BeforeTest
+	public void startProxy() {
+		proxyServer = new StartMobServer();
+		proxyServer.startServer();
+	}
+	
+	@AfterTest
+	public void stopServer() {
+		proxyServer.stopServer();
+	}
+	
+	
 	@BeforeClass
 	public void setUP() {
 		setUpSession();// this set driver session
@@ -13,7 +29,7 @@ public class Login_Tests extends BaseTests {
 	
 	@Test(description="Verify User Can navigate to the Login Page from the Landing using myaccount login option")
 	public void Test1_Verify_Login_Page_Accessible_From_Landing() {
-		homePageKeywords.launchApplication(testdata.getApplicationLandingPageUrl());//// base condition
+		homePageKeywords.launchApplication("https://webui-qa.erpmaestro.com/login");//// base condition
 		headerKeywords.clickOnMyAccountIcon().clickOnLoginPageOptionfromAccountDropDown();// execution
 		//Assertions
 		softly.assertThat(loginKeywords.getListOfLoginMenuOptions()).containsSequence("Register").withFailMessage("Assertion Failed :On Login page there is no option of Register");

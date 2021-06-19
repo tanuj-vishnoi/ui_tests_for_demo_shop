@@ -16,9 +16,13 @@ import keywords.SearchPageKeywords;
 import keywords.ShoppingCartPageKeywords;
 import keywords.UserLoginPageKeywords;
 import logger.MainLogger;
+import mobserverproxy.StartMobServer;
 import testresourcereader.DataSource;
 
 public class BaseTests {
+	
+	
+	public StartMobServer proxyServer;
 
 	public HomePageKeywords homePageKeywords;
 	public UserLoginPageKeywords loginKeywords;
@@ -53,7 +57,7 @@ public class BaseTests {
 	
 	@AfterClass
 	public void setUpDown() {
-		DriverManager.closeDriver();
+		//DriverManager.closeDriver();
 	}
 	
 	@AfterMethod

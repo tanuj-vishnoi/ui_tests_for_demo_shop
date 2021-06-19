@@ -1,68 +1,57 @@
-{2021-02-18 19:05:27,514}       {INFO} (BaseTests.java:49) 
-{2021-02-18 19:05:27,516}       {INFO} (BaseTests.java:50) ****************** Starting method : Test1_Verify_Login_Page_Accessible_From_Landing*************************
-{2021-02-18 19:05:27,516}       {INFO} (BaseTests.java:51) 
-{2021-02-18 19:05:27,552}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 19:05:30,430}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [title='My Account'] span[class='caret']
-{2021-02-18 19:05:30,498}       {INFO} (HeaderSectionKeywords.java:56) User clicks on the myaccount option present in header section
-{2021-02-18 19:05:30,499}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [title='My Account']+ul a[href*='login']
-{2021-02-18 19:05:32,783}       {INFO} (HeaderSectionKeywords.java:62) User clicks on the login option present in header myaccount dropdown
-{2021-02-18 19:05:32,950}       {INFO} (UserLoginPageKeywords.java:50) All options are [Login, Register, Forgotten Password, My Account, Address Book, Wish List, Order History, Downloads, Recurring payments, Reward Points, Returns, Transactions, Newsletter]
-{2021-02-18 19:05:33,206}       {INFO} (BaseTests.java:64) 
-{2021-02-18 19:05:33,206}       {INFO} (BaseTests.java:65) **************** Ending method : Test1_Verify_Login_Page_Accessible_From_Landing ******************************8
-{2021-02-18 19:05:33,207}       {INFO} (BaseTests.java:66) 
-{2021-02-18 19:05:33,208}       {INFO} (BaseTests.java:49) 
-{2021-02-18 19:05:33,208}       {INFO} (BaseTests.java:50) ****************** Starting method : Test2_Verify_A_Valid_User_Having_Account_Can_Login_Using_Valid_UserName_And_Password*************************
-{2021-02-18 19:05:33,209}       {INFO} (BaseTests.java:51) 
-{2021-02-18 19:05:33,212}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com/index.php?route=account/login
-{2021-02-18 19:05:34,507}       {DEBUG} (BasePage.java:33) Locator value is By.id: input-email
-{2021-02-18 19:05:34,691}       {INFO} (UserLoginPageKeywords.java:29) Entered the username : DontDeleteTestAutomation@mailinator.com
-{2021-02-18 19:05:34,692}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #input-password
-{2021-02-18 19:05:34,782}       {INFO} (UserLoginPageKeywords.java:35) Entered the password : T@stAutomation
-{2021-02-18 19:05:34,782}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[value='Login']
-{2021-02-18 19:05:35,687}       {INFO} (UserLoginPageKeywords.java:41) Clicked on the login button
-{2021-02-18 19:05:35,810}       {INFO} (MyAccountPageKeywords.java:30) All options are [Edit your account information, Change your password, Modify your address book entries, Modify your wish list, View your order history, Downloads, Your Reward Points, View your return requests, Your Transactions, Recurring payments, Register for an affiliate account, Subscribe / unsubscribe to newsletter]
-{2021-02-18 19:05:35,814}       {INFO} (BaseTests.java:64) 
-{2021-02-18 19:05:35,815}       {INFO} (BaseTests.java:65) **************** Ending method : Test2_Verify_A_Valid_User_Having_Account_Can_Login_Using_Valid_UserName_And_Password ******************************8
-{2021-02-18 19:05:35,815}       {INFO} (BaseTests.java:66) 
-{2021-02-18 19:05:37,133}       {INFO} (BaseTests.java:49) 
-{2021-02-18 19:05:37,133}       {INFO} (BaseTests.java:50) ****************** Starting method : Test1_User_Can_Search_A_Valid_Product*************************
-{2021-02-18 19:05:37,134}       {INFO} (BaseTests.java:51) 
-{2021-02-18 19:05:37,135}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 19:05:40,433}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']
-{2021-02-18 19:05:40,578}       {INFO} (HeaderSectionKeywords.java:46) User enters search term mac
-{2021-02-18 19:05:40,578}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']+span button i
-{2021-02-18 19:05:41,837}       {INFO} (HeaderSectionKeywords.java:51) User clicks on search button
-{2021-02-18 19:05:41,849}       {INFO} (SearchPageKeywords.java:30) Total count of product after search 4
-{2021-02-18 19:05:41,893}       {INFO} (BaseTests.java:64) 
-{2021-02-18 19:05:41,893}       {INFO} (BaseTests.java:65) **************** Ending method : Test1_User_Can_Search_A_Valid_Product ******************************8
-{2021-02-18 19:05:41,893}       {INFO} (BaseTests.java:66) 
-{2021-02-18 19:05:41,894}       {INFO} (BaseTests.java:49) 
-{2021-02-18 19:05:41,895}       {INFO} (BaseTests.java:50) ****************** Starting method : Test2_Verify_Search_Results_Has_The_Searched_Keyword_In_Their_Name*************************
-{2021-02-18 19:05:41,895}       {INFO} (BaseTests.java:51) 
-{2021-02-18 19:05:41,896}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 19:05:43,032}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']
-{2021-02-18 19:05:43,118}       {INFO} (HeaderSectionKeywords.java:46) User enters search term mac
-{2021-02-18 19:05:43,118}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']+span button i
-{2021-02-18 19:05:43,556}       {INFO} (HeaderSectionKeywords.java:51) User clicks on search button
-{2021-02-18 19:05:43,651}       {INFO} (BaseTests.java:64) 
-{2021-02-18 19:05:43,651}       {INFO} (BaseTests.java:65) **************** Ending method : Test2_Verify_Search_Results_Has_The_Searched_Keyword_In_Their_Name ******************************8
-{2021-02-18 19:05:43,651}       {INFO} (BaseTests.java:66) 
-{2021-02-18 19:05:45,132}       {INFO} (BaseTests.java:49) 
-{2021-02-18 19:05:45,132}       {INFO} (BaseTests.java:50) ****************** Starting method : Test1_Verify_Profuct_Details_On_Shopping_Cart_Part*************************
-{2021-02-18 19:05:45,132}       {INFO} (BaseTests.java:51) 
-{2021-02-18 19:05:45,133}       {INFO} (HomePageKeywords.java:31) Launching url http://demoshop24.com
-{2021-02-18 19:05:48,427}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']
-{2021-02-18 19:05:48,581}       {INFO} (HeaderSectionKeywords.java:46) User enters search term mac
-{2021-02-18 19:05:48,581}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: input[placeholder='Search']+span button i
-{2021-02-18 19:05:50,036}       {INFO} (HeaderSectionKeywords.java:51) User clicks on search button
-{2021-02-18 19:05:50,053}       {INFO} (SearchPageKeywords.java:30) Total count of product after search 4
-{2021-02-18 19:05:50,093}       {INFO} (SearchPageKeywords.java:40) $122.00 Ex Tax: $100.00
-{2021-02-18 19:05:50,094}       {INFO} (SearchPageKeywords.java:43) Product at index 0 having a price of $122.00 and tax $100.00
-{2021-02-18 19:05:50,119}       {INFO} (SearchPageKeywords.java:49) Product at index 0 has name iMac
-{2021-02-18 19:05:50,165}       {INFO} (SearchPageKeywords.java:64) User add product at index 0 in the cart
-{2021-02-18 19:05:50,548}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [class*='alert-success']
-{2021-02-18 19:05:50,569}       {INFO} (SearchPageKeywords.java:70) Success message is Success: You have added iMac to your shopping cart! ×
-{2021-02-18 19:05:50,570}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: #cart-total
-{2021-02-18 19:05:50,619}       {INFO} (BaseTests.java:64) 
-{2021-02-18 19:05:50,619}       {INFO} (BaseTests.java:65) **************** Ending method : Test1_Verify_Profuct_Details_On_Shopping_Cart_Part ******************************8
-{2021-02-18 19:05:50,620}       {INFO} (BaseTests.java:66) 
+{2021-06-19 13:49:00,335}       {INFO} (StartMobServer.java:26) proxyadd
+{2021-06-19 13:49:00,669}       {INFO} (DriverClass.java:100) Adding proxy at localhost:52033
+{2021-06-19 13:49:05,607}       {INFO} (BaseTests.java:53) 
+{2021-06-19 13:49:05,608}       {INFO} (BaseTests.java:54) ****************** Starting method : Test1_Verify_Login_Page_Accessible_From_Landing*************************
+{2021-06-19 13:49:05,608}       {INFO} (BaseTests.java:55) 
+{2021-06-19 13:49:05,622}       {INFO} (HomePageKeywords.java:31) Launching url https://webui-qa.erpmaestro.com/login
+{2021-06-19 13:49:06,964}       {INFO} (StartMobServer.java:63) https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+{2021-06-19 13:49:07,659}       {INFO} (StartMobServer.java:63) https://webui-qa.erpmaestro.com/login
+{2021-06-19 13:49:07,977}       {INFO} (StartMobServer.java:63) https://webui-qa.erpmaestro.com/runtime-es2015.b3e63489407f810b36dd.js
+{2021-06-19 13:49:08,497}       {INFO} (StartMobServer.java:63) https://webui-qa.erpmaestro.com/polyfills-es2015.3b6f72ee2903b85f3d8c.js
+{2021-06-19 13:49:08,943}       {INFO} (StartMobServer.java:63) https://webui-qa.erpmaestro.com/styles.b83bfc88674795c8aeb7.css
+{2021-06-19 13:49:10,020}       {DEBUG} (BasePage.java:33) Locator value is By.cssSelector: [title='My Account'] span[class='caret']
+{2021-06-19 13:49:10,271}       {INFO} (StartMobServer.java:63) https://webui-qa.erpmaestro.com/favicon.ico?v=2
+{2021-06-19 13:50:02,640}       {INFO} (StartMobServer.java:63) https://www.google.com/async/ddljson?async=ntp:2
+{2021-06-19 13:50:02,651}       {INFO} (StartMobServer.java:63) https://www.google.com/async/newtab_promos
+{2021-06-19 13:50:02,768}       {INFO} (StartMobServer.java:63) https://www.google.com/async/newtab_ogb?hl=en-GB&async=fixed:0
+{2021-06-19 13:50:03,380}       {INFO} (StartMobServer.java:63) https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg
+{2021-06-19 13:50:03,389}       {INFO} (StartMobServer.java:63) https://www.gstatic.com/og/_/ss/k=og.qtm.P8n2dCwhoA8.L.W.O/m=qmd,qcwid/excm=qaaw,qabr,qadd,qaid,qalo,qebr,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhlo,qhmn,qhpc,qhpr,qhsf,qhtt/d=1/ed=1/ct=zgms/rs=AA2YrTvJt5zPrsxf72ExnOF2ZFpD5Kgx7A
+{2021-06-19 13:50:03,450}       {INFO} (StartMobServer.java:63) https://www.gstatic.com/og/_/js/k=og.qtm.en_US.UKfh4Jard14.O/rt=j/m=q_d,qmd,qcwid,qapid,qald/exm=qaaw,qabr,qadd,qaid,qalo,qebr,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhlo,qhmn,qhpc,qhpr,qhsf,qhtt/d=1/ed=1/rs=AA2YrTvhqESG86SancEQRa0zo3UDA8gUsw
+{2021-06-19 13:50:04,023}       {INFO} (StartMobServer.java:63) https://ogs.google.com/widget/app/so?bc=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en-GB&dm=
+{2021-06-19 13:50:04,108}       {INFO} (StartMobServer.java:63) https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.7yBiF1UUXzY.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-pEDm0pqtBuZIKGpxOGTcQloIhJw/cb=gapi.loaded_0
+{2021-06-19 13:50:05,763}       {INFO} (StartMobServer.java:63) https://update.googleapis.com/service/update2/json?cup2key=10:2612370849&cup2hreq=e09f8933ddcd237eabd1befb9ae07380a9a8320ca2e35585bcd44fa680c8ee21
+{2021-06-19 13:50:05,908}       {INFO} (StartMobServer.java:63) http://redirector.gvt1.com/edgedl/release2/chrome_component/APhHMzuprJvS7ixvnAk_gdI_1/anGnv31dmOJhheXBnYQ3gw
+{2021-06-19 13:50:06,056}       {INFO} (StartMobServer.java:63) http://r4---sn-gwpa-5bge.gvt1.com/edgedl/release2/chrome_component/APhHMzuprJvS7ixvnAk_gdI_1/anGnv31dmOJhheXBnYQ3gw?cms_redirect=yes&mh=LV&mip=49.36.219.160&mm=28&mn=sn-gwpa-5bge&ms=nvh&mt=1624090343&mv=m&mvi=4&pl=23&rmhost=r1---sn-gwpa-5bge.gvt1.com&shardbypass=yes&smhost=r1---sn-gwpa-5bgd.gvt1.com
+{2021-06-19 13:50:06,502}       {INFO} (StartMobServer.java:63) https://update.googleapis.com/service/update2/json
+{2021-06-19 13:50:06,792}       {INFO} (StartMobServer.java:63) http://redirector.gvt1.com/edgedl/release2/chrome_component/ANlaTV2JH2WK9RCoHi__mxg_1.0.6/S3ybLvFx94Hgn9pWLt24ug
+{2021-06-19 13:50:06,824}       {INFO} (StartMobServer.java:63) http://r4---sn-gwpa-5bge.gvt1.com/edgedl/release2/chrome_component/ANlaTV2JH2WK9RCoHi__mxg_1.0.6/S3ybLvFx94Hgn9pWLt24ug?cms_redirect=yes&mh=y2&mip=49.36.219.160&mm=28&mn=sn-gwpa-5bge&ms=nvh&mt=1624090343&mv=m&mvi=4&pl=23&rmhost=r2---sn-gwpa-5bge.gvt1.com&shardbypass=yes&smhost=r2---sn-gwpa-5bg6.gvt1.com
+{2021-06-19 13:50:07,660}       {INFO} (StartMobServer.java:63) https://update.googleapis.com/service/update2/json
+{2021-06-19 13:50:07,745}       {INFO} (StartMobServer.java:63) http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/AOr1uo9Rjv3xSlqPk5ntIrA_20210609.1/APAON8yuhLEwcnqYbHyBeGE
+{2021-06-19 13:50:08,590}       {INFO} (StartMobServer.java:63) https://www.google.com/search?q=chrome+certificate+is+not+trusted&oq=chrome+certificate+is+not+trusted&aqs=chrome..69i57.5851j0j7&sourceid=chrome&ie=UTF-8
+{2021-06-19 13:50:08,717}       {INFO} (StartMobServer.java:63) https://www.gstatic.com/ui/v1/activityindicator/loading_24.gif
+{2021-06-19 13:50:08,743}       {INFO} (StartMobServer.java:63) https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png
+{2021-06-19 13:50:08,752}       {INFO} (StartMobServer.java:63) https://www.google.com/images/searchbox/desktop_searchbox_sprites318_hr.webp
+{2021-06-19 13:50:08,812}       {INFO} (StartMobServer.java:63) https://update.googleapis.com/service/update2/json
+{2021-06-19 13:50:08,840}       {INFO} (StartMobServer.java:63) https://www.google.com/images/nav_logo323.webp
+{2021-06-19 13:50:08,889}       {INFO} (StartMobServer.java:63) https://www.google.com/gen_204?s=web&t=aft&atyp=csi&ei=uKjNYJa9BMy84-EP35-N0A8&rt=wsrt.841,aft.181,prt.153,sct.84&imn=2&ima=1&imad=0&aftp=667&bl=bWXf
+{2021-06-19 13:50:08,902}       {INFO} (StartMobServer.java:63) http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/AIZk8O7Cv2UUbxc_aaUykKI_7/ALzUVHP-vRgKCzqwbtGugSE
+{2021-06-19 13:50:08,969}       {INFO} (StartMobServer.java:63) https://www.google.com/xjs/_/js/k=xjs.s.en_GB.Is5exLrkjcc.O/m=cdos,dpf,hsm,jsa,d,csi/am=QhlAAAAAAPgD8CAjYAEBAACAMQAAAAAAAEAhgECyOxQAAEyZR8AAAAABCBwBhYiCCEAAAADABPYD5Pw3AQCXwCYMAAAAAACAAFwCGaUCJAoCCAAAAEBMrZ46CAGg/d=1/ed=1/dg=2/br=1/rs=ACT90oFAP0GIGFiw8Mz2Iu2AZ-c5-vptQA
+{2021-06-19 13:50:09,358}       {INFO} (StartMobServer.java:63) https://www.google.com/xjs/_/js/k=xjs.s.en_GB.Is5exLrkjcc.O/ck=xjs.s.NgD_y34M36g.L.W.O/am=QhlAAAAAAPgD8CAjYAEBAACAMQAAAAAAAEAhgECyOxQAAEyZR8AAAAABCBwBhYiCCEAAAADABPYD5Pw3AQCXwCYMAAAAAACAAFwCGaUCJAoCCAAAAEBMrZ46CAGg/d=1/exm=cdos,csi,d,dpf,hsm,jsa/ed=1/dg=2/br=1/rs=ACT90oE7v_q7NxgSg4r91k9RKO1hfSrW3g/m=DwNJZd,KVWnye,MB3mMb,NBZ7u,O8k1Cd,OG6ZHd,RL6dv,T7XTS,URQPYc,XMgU6d,aCZVp,aa,abd,async,bgd,dvl,eN4qad,fEVMic,fk3mof,foot,iD8Yk,kyn,lli,m6a0l,mUpTid,mu,o02Jie,pB6Zqd,pkeO3b,qik19b,rHjpXd,sb_wiz,sf,sonic,spch,tIj4fb,tl,tt,xz7cCd,zbML3c?xjs=s1
+{2021-06-19 13:50:09,369}       {INFO} (StartMobServer.java:63) https://www.gstatic.com/og/_/ss/k=og.qtm.P8n2dCwhoA8.L.W.O/m=qcwid/excm=qaaw,qadd,qaid,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/ct=zgms/rs=AA2YrTvJt5zPrsxf72ExnOF2ZFpD5Kgx7A
+{2021-06-19 13:50:09,389}       {INFO} (StartMobServer.java:63) https://www.gstatic.com/og/_/js/k=og.qtm.en_US.UKfh4Jard14.O/rt=j/m=qabr,q_d,qcwid,qapid/exm=qaaw,qadd,qaid,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTvhqESG86SancEQRa0zo3UDA8gUsw
+{2021-06-19 13:50:09,413}       {INFO} (StartMobServer.java:63) https://update.googleapis.com/service/update2/json
+{2021-06-19 13:50:09,427}       {INFO} (StartMobServer.java:63) https://www.google.com/client_204?&atyp=i&biw=1440&bih=667&dpr=2&ei=uKjNYJa9BMy84-EP35-N0A8
+{2021-06-19 13:50:09,454}       {INFO} (StartMobServer.java:63) https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp5eKQtG.woff2
+{2021-06-19 13:50:09,515}       {INFO} (StartMobServer.java:63) https://www.google.com/xjs/_/js/k=xjs.s.en_GB.Is5exLrkjcc.O/ck=xjs.s.NgD_y34M36g.L.W.O/am=QhlAAAAAAPgD8CAjYAEBAACAMQAAAAAAAEAhgECyOxQAAEyZR8AAAAABCBwBhYiCCEAAAADABPYD5Pw3AQCXwCYMAAAAAACAAFwCGaUCJAoCCAAAAEBMrZ46CAGg/d=1/exm=DwNJZd,KVWnye,MB3mMb,NBZ7u,O8k1Cd,OG6ZHd,RL6dv,T7XTS,URQPYc,XMgU6d,aCZVp,aa,abd,async,bgd,cdos,csi,d,dpf,dvl,eN4qad,fEVMic,fk3mof,foot,hsm,iD8Yk,jsa,kyn,lli,m6a0l,mUpTid,mu,o02Jie,pB6Zqd,pkeO3b,qik19b,rHjpXd,sb_wiz,sf,sonic,spch,tIj4fb,tl,tt,xz7cCd,zbML3c/ed=1/dg=2/br=1/rs=ACT90oE7v_q7NxgSg4r91k9RKO1hfSrW3g/m=qjr3nc,wQpTuc?xjs=s2
+{2021-06-19 13:50:09,625}       {INFO} (StartMobServer.java:63) https://www.google.com/gen_204?atyp=i&ei=uKjNYJa9BMy84-EP35-N0A8&dt19=3&zx=1624090809510
+{2021-06-19 13:50:09,636}       {INFO} (StartMobServer.java:63) https://www.google.com/async/bgasy?ei=uKjNYJa9BMy84-EP35-N0A8&yv=3&async=_fmt:jspb
+{2021-06-19 13:50:09,645}       {INFO} (StartMobServer.java:63) https://www.google.com/client_204?cs=2
+{2021-06-19 13:50:09,749}       {INFO} (StartMobServer.java:63) https://www.google.com/complete/search?q=chrome%20certificate%20is%20not%20trusted&cp=0&client=desktop-gws-wiz-on-focus-serp&xssi=t&gs_ri=gws-wiz&hl=en-IN&authuser=0&pq=chrome%20certificate%20is%20not%20trusted&psi=uKjNYJa9BMy84-EP35-N0A8.1624090809278&ofp=EAE&dpr=2
+{2021-06-19 13:50:09,876}       {INFO} (StartMobServer.java:63) https://www.google.com/complete/search?q&cp=0&client=gws-wiz&xssi=t&gs_ri=gws-wiz&hl=en-IN&authuser=0&pq=chrome%20certificate%20is%20not%20trusted&psi=uKjNYJa9BMy84-EP35-N0A8.1624090809278&nolsbt=1&dpr=2
+{2021-06-19 13:50:09,878}       {INFO} (StartMobServer.java:63) https://www.google.com/xjs/_/js/k=xjs.s.en_GB.Is5exLrkjcc.O/ck=xjs.s.NgD_y34M36g.L.W.O/am=QhlAAAAAAPgD8CAjYAEBAACAMQAAAAAAAEAhgECyOxQAAEyZR8AAAAABCBwBhYiCCEAAAADABPYD5Pw3AQCXwCYMAAAAAACAAFwCGaUCJAoCCAAAAEBMrZ46CAGg/d=1/exm=DwNJZd,KVWnye,MB3mMb,NBZ7u,O8k1Cd,OG6ZHd,RL6dv,T7XTS,URQPYc,XMgU6d,aCZVp,aa,abd,async,bgd,cdos,csi,d,dpf,dvl,eN4qad,fEVMic,fk3mof,foot,hsm,iD8Yk,jsa,kyn,lli,m6a0l,mUpTid,mu,o02Jie,pB6Zqd,pkeO3b,qik19b,qjr3nc,rHjpXd,sb_wiz,sf,sonic,spch,tIj4fb,tl,tt,wQpTuc,xz7cCd,zbML3c/ed=1/dg=2/br=1/rs=ACT90oE7v_q7NxgSg4r91k9RKO1hfSrW3g/m=NZI0Db,T6sTsf,Uuupec,fWEITb,hiU8Ie,mD3xrf,r36a9c,uiNkee,xj7LNb?xjs=s2
+{2021-06-19 13:50:09,881}       {INFO} (StartMobServer.java:63) https://ogs.google.com/widget/app/so?bc=1&origin=https%3A%2F%2Fwww.google.com&cn=app&pid=1&spid=1&hl=en
+{2021-06-19 13:50:09,884}       {INFO} (StartMobServer.java:63) https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.7yBiF1UUXzY.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-pEDm0pqtBuZIKGpxOGTcQloIhJw/cb=gapi.loaded_0
+{2021-06-19 13:50:09,981}       {INFO} (StartMobServer.java:63) https://www.google.com/xjs/_/js/k=xjs.s.en_GB.Is5exLrkjcc.O/ck=xjs.s.NgD_y34M36g.L.W.O/am=QhlAAAAAAPgD8CAjYAEBAACAMQAAAAAAAEAhgECyOxQAAEyZR8AAAAABCBwBhYiCCEAAAADABPYD5Pw3AQCXwCYMAAAAAACAAFwCGaUCJAoCCAAAAEBMrZ46CAGg/d=1/exm=DwNJZd,KVWnye,MB3mMb,NBZ7u,NZI0Db,O8k1Cd,OG6ZHd,RL6dv,T6sTsf,T7XTS,URQPYc,Uuupec,XMgU6d,aCZVp,aa,abd,async,bgd,cdos,csi,d,dpf,dvl,eN4qad,fEVMic,fWEITb,fk3mof,foot,hiU8Ie,hsm,iD8Yk,jsa,kyn,lli,m6a0l,mD3xrf,mUpTid,mu,o02Jie,pB6Zqd,pkeO3b,qik19b,qjr3nc,r36a9c,rHjpXd,sb_wiz,sf,sonic,spch,tIj4fb,tl,tt,uiNkee,wQpTuc,xj7LNb,xz7cCd,zbML3c/ed=1/dg=2/br=1/rs=ACT90oE7v_q7NxgSg4r91k9RKO1hfSrW3g/m=wkrYee?xjs=s2
+{2021-06-19 13:50:10,136}       {INFO} (BaseTests.java:68) 
+{2021-06-19 13:50:10,137}       {INFO} (BaseTests.java:69) **************** Ending method : Test1_Verify_Login_Page_Accessible_From_Landing ******************************8
+{2021-06-19 13:50:10,138}       {INFO} (BaseTests.java:70) 

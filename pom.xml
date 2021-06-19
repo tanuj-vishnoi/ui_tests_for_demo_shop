@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.demo.cucumberjunittestng</groupId>
-	<artifactId>ui_tests_for_demo_shop</artifactId>
+	<artifactId>mob_proxy_example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
@@ -19,7 +19,7 @@
 		<assertjversion>3.6.0</assertjversion>
 		<testngxml>smoke_tests.xml</testngxml>
 		<maven.compiler.source>1.8</maven.compiler.source>
-     <maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<dependencies>
@@ -36,6 +36,23 @@
 			<version>${testngversion}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>net.lightbody.bmp</groupId>
+			<artifactId>browsermob-core</artifactId>
+			<version>2.1.5</version>
+		</dependency>
+
+		<!-- <dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>21.0</version>
+		</dependency> -->
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>27.0.1-jre</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
